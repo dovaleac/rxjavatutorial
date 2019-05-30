@@ -1,82 +1,3554 @@
 [
-    {
-      "name": "House Algood",
-      "id": "1",
-      "region": "The Westerlands",
-      "words": "",
-      "currentLord": "",
-      "overlord": "229"
-    },
-    {
-      "name": "House Allyrion of Godsgrace",
-      "id": "2",
-      "region": "Dorne",
-      "words": "No Foe May Pass",
-      "currentLord": "298",
-      "overlord": "285"
-    },
-    {
-      "name": "House Amber",
-      "id": "3",
-      "region": "The North",
-      "words": "",
-      "currentLord": "",
-      "overlord": ""
-    },
-    {
-      "name": "House Ambrose",
-      "id": "4",
-      "region": "The Reach",
-      "words": "Never Resting",
-      "currentLord": "141",
-      "overlord": "398"
-    },
-    {
-      "name": "House Appleton of Appleton",
-      "id": "5",
-      "region": "The Reach",
-      "words": "",
-      "currentLord": "",
-      "overlord": "398"
-    },
-    {
-      "name": "House Arryn of Gulltown",
-      "id": "6",
-      "region": "The Vale",
-      "words": "",
-      "currentLord": "",
-      "overlord": "7"
-    },
-    {
-      "name": "House Arryn of the Eyrie",
-      "id": "7",
-      "region": "The Vale",
-      "words": "As High as Honor",
-      "currentLord": "894",
-      "overlord": "16"
-    },
-    {
-      "name": "House Ashford of Ashford",
-      "id": "8",
-      "region": "The Reach",
-      "words": "Our Sun Shines Bright",
-      "currentLord": "",
-      "overlord": "398"
-    },
-    {
-      "name": "House Ashwood",
-      "id": "9",
-      "region": "The North",
-      "words": "",
-      "currentLord": "",
-      "overlord": "34"
-    },
-    {
-      "name": "House Baelish of Harrenhal",
-      "id": "10",
-      "region": "The Riverlands",
-      "words": "",
-      "currentLord": "823",
-      "overlord": "16"
-    }
+{
+  "name": "House Algood",
+  "id": "1",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Allyrion of Godsgrace",
+  "id": "2",
+  "region": "Dorne",
+  "words": "No Foe May Pass",
+  "currentLord": 298,
+  "overlord": 285
+},
+{
+  "name": "House Amber",
+  "id": "3",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 1000
+},
+{
+  "name": "House Ambrose",
+  "id": "4",
+  "region": "The Reach",
+  "words": "Never Resting",
+  "currentLord": 141,
+  "overlord": 398
+},
+{
+  "name": "House Appleton of Appleton",
+  "id": "5",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Arryn of Gulltown",
+  "id": "6",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Arryn of the Eyrie",
+  "id": "7",
+  "region": "The Vale",
+  "words": "As High as Honor",
+  "currentLord": 894,
+  "overlord": 16
+},
+{
+  "name": "House Ashford of Ashford",
+  "id": "8",
+  "region": "The Reach",
+  "words": "Our Sun Shines Bright",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Ashwood",
+  "id": "9",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Baelish of Harrenhal",
+  "id": "10",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 823,
+  "overlord": 16
+},
+{
+  "name": "House Baelish of the Fingers",
+  "id": "11",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 823,
+  "overlord": 7
+},
+{
+  "name": "House Ball",
+  "id": "12",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Banefort of Banefort",
+  "id": "13",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 837,
+  "overlord": 229
+},
+{
+  "name": "House Bar Emmon of Sharp Point",
+  "id": "14",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 332,
+  "overlord": 15
+},
+{
+  "name": "House Baratheon of Dragonstone",
+  "id": "15",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 1963,
+  "overlord": 16
+},
+{
+  "name": "House Baratheon of King's Landing",
+  "id": "16",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 1029,
+  "overlord": 15
+},
+{
+  "name": "House Baratheon of Storm's End",
+  "id": "17",
+  "region": "The Stormlands",
+  "words": "Ours is the Fury",
+  "currentLord": 1029,
+  "overlord": 16
+},
+{
+  "name": "House Beesbury of Honeyholt",
+  "id": "18",
+  "region": "The Reach",
+  "words": "Beware our Sting",
+  "currentLord": 1103,
+  "overlord": 195
+},
+{
+  "name": "House Belmore of Strongsong",
+  "id": "19",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 176,
+  "overlord": 7
+},
+{
+  "name": "House Bettley",
+  "id": "20",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Bigglestone",
+  "id": "21",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 3
+},
+{
+  "name": "House Blackbar of Bandallon",
+  "id": "22",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Blackfyre of King's Landing",
+  "id": "23",
+  "region": "",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 378
+},
+{
+  "name": "House Blackmont of Blackmont",
+  "id": "24",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 1607,
+  "overlord": 285
+},
+{
+  "name": "House Blackmyre",
+  "id": "25",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Blacktyde of Blacktyde",
+  "id": "26",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Blackwood of Raventree Hall",
+  "id": "27",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 2045,
+  "overlord": 10
+},
+{
+  "name": "House Blanetree",
+  "id": "28",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Blount",
+  "id": "29",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Boggs",
+  "id": "30",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Boggs of Crackclaw Point",
+  "id": "31",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Bole",
+  "id": "32",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 150
+},
+{
+  "name": "House Bolling",
+  "id": "33",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Bolton of the Dreadfort",
+  "id": "34",
+  "region": "The North",
+  "words": "Our Blades are Sharp",
+  "currentLord": 933,
+  "overlord": 16
+},
+{
+  "name": "House Borrell of Sweetsister",
+  "id": "35",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 429,
+  "overlord": 370
+},
+{
+  "name": "House Botley of Lordsport",
+  "id": "36",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 419,
+  "overlord": 169
+},
+{
+  "name": "House Bracken of Stone Hedge",
+  "id": "37",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 1559,
+  "overlord": 10
+},
+{
+  "name": "House Branch",
+  "id": "38",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 150
+},
+{
+  "name": "House Branfield",
+  "id": "39",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Brax of Hornvale",
+  "id": "40",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 1055,
+  "overlord": 229
+},
+{
+  "name": "House Breakstone",
+  "id": "41",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Briar",
+  "id": "42",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Bridges",
+  "id": "43",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Brightstone",
+  "id": "44",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Brook",
+  "id": "45",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Broom",
+  "id": "46",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Brownhill",
+  "id": "47",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Brune of Brownhollow",
+  "id": "48",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 184,
+  "overlord": 16
+},
+{
+  "name": "House Brune of the Dyre Den",
+  "id": "49",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 1380,
+  "overlord": 16
+},
+{
+  "name": "House Buckler of Bronzegate",
+  "id": "50",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 848,
+  "overlord": 17
+},
+{
+  "name": "House Buckwell of the Antlers",
+  "id": "51",
+  "region": "The Crownlands",
+  "words": "Pride and Purpose",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Bulwer of Blackcrown",
+  "id": "52",
+  "region": "The Reach",
+  "words": "Death Before Disgrace",
+  "currentLord": 100,
+  "overlord": 195
+},
+{
+  "name": "House Burley",
+  "id": "53",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Bushy",
+  "id": "54",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Butterwell",
+  "id": "55",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Byrch",
+  "id": "56",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Bywater",
+  "id": "57",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Cafferen of Fawnton",
+  "id": "58",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Cargyll",
+  "id": "59",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 378
+},
+{
+  "name": "House Caron of Nightsong",
+  "id": "60",
+  "region": "The Stormlands",
+  "words": "No Song so Sweet",
+  "currentLord": 925,
+  "overlord": 15
+},
+{
+  "name": "House Cassel",
+  "id": "61",
+  "region": "The North",
+  "words": "",
+  "currentLord": 194,
+  "overlord": 362
+},
+{
+  "name": "House Casterly of Casterly Rock",
+  "id": "62",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Caswell of Bitterbridge",
+  "id": "63",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 644,
+  "overlord": 398
+},
+{
+  "name": "House Cave",
+  "id": "64",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Celtigar of Claw Isle",
+  "id": "65",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 127,
+  "overlord": 16
+},
+{
+  "name": "House Cerwyn of Cerwyn",
+  "id": "66",
+  "region": "The North",
+  "words": "Honed and Ready",
+  "currentLord": 588,
+  "overlord": 34
+},
+{
+  "name": "House Chambers",
+  "id": "67",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Charlton",
+  "id": "68",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 143
+},
+{
+  "name": "House Chelsted",
+  "id": "69",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Chester of Greenshield",
+  "id": "70",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 760,
+  "overlord": 398
+},
+{
+  "name": "House Chyttering",
+  "id": "71",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 663,
+  "overlord": 16
+},
+{
+  "name": "House Clegane",
+  "id": "72",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Clifton",
+  "id": "73",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 1403,
+  "overlord": 120
+},
+{
+  "name": "House Cockshaw",
+  "id": "74",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Codd",
+  "id": "75",
+  "region": "Iron Islands",
+  "words": "Though All Men Do Despise Us",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Coldwater of Coldwater Burn",
+  "id": "76",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 939,
+  "overlord": 328
+},
+{
+  "name": "House Cole",
+  "id": "77",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Condon",
+  "id": "78",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 66
+},
+{
+  "name": "House Conklyn",
+  "id": "79",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Connington of Griffin's Roost",
+  "id": "80",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 576,
+  "overlord": 17
+},
+{
+  "name": "House Corbray of Heart's Home",
+  "id": "81",
+  "region": "",
+  "words": "",
+  "currentLord": 681,
+  "overlord": 7
+},
+{
+  "name": "House Cordwayner of Hammerhal",
+  "id": "82",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Costayne of Three Towers",
+  "id": "83",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 1030,
+  "overlord": 195
+},
+{
+  "name": "House Cox of Saltpans",
+  "id": "84",
+  "region": "",
+  "words": "",
+  "currentLord": 1846,
+  "overlord": 395
+},
+{
+  "name": "House Crabb",
+  "id": "85",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Crakehall of Crakehall",
+  "id": "86",
+  "region": "The Westerlands",
+  "words": "None so Fierce",
+  "currentLord": 922,
+  "overlord": 229
+},
+{
+  "name": "House Crane of Red Lake",
+  "id": "87",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Cray",
+  "id": "88",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Cressey",
+  "id": "89",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Crowl of Deepdown",
+  "id": "90",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Cuy of Sunhouse",
+  "id": "91",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 215,
+  "overlord": 195
+},
+{
+  "name": "House Dalt of Lemonwood",
+  "id": "92",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 309,
+  "overlord": 285
+},
+{
+  "name": "House Dargood",
+  "id": "93",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Darke",
+  "id": "94",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Darklyn of Duskendale",
+  "id": "95",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 378
+},
+{
+  "name": "House Darkwood",
+  "id": "96",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Darry of Darry",
+  "id": "97",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 712,
+  "overlord": 10
+},
+{
+  "name": "House Dayne of High Hermitage",
+  "id": "98",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 1421,
+  "overlord": 99
+},
+{
+  "name": "House Dayne of Starfall",
+  "id": "99",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 348,
+  "overlord": 285
+},
+{
+  "name": "House Deddings",
+  "id": "100",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Doggett",
+  "id": "101",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Dondarrion of Blackhaven",
+  "id": "102",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 190,
+  "overlord": 17
+},
+{
+  "name": "House Donniger",
+  "id": "103",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Drinkwater",
+  "id": "104",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 444
+},
+{
+  "name": "House Drox",
+  "id": "105",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Drumm of Old Wyk",
+  "id": "106",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 331,
+  "overlord": 169
+},
+{
+  "name": "House Dryland",
+  "id": "107",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Dunn",
+  "id": "108",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Durrandon",
+  "id": "109",
+  "region": "The Stormlands",
+  "words": "Ours is the Fury",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Durwell",
+  "id": "110",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Dustin of Barrowton",
+  "id": "111",
+  "region": "The North",
+  "words": "",
+  "currentLord": 166,
+  "overlord": 34
+},
+{
+  "name": "House Edgerton",
+  "id": "112",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Egen",
+  "id": "113",
+  "region": "The Vale",
+  "words": "By Day or Night",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Elesham of the Paps",
+  "id": "114",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Erenford",
+  "id": "115",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 143
+},
+{
+  "name": "House Errol of Haystack Hall",
+  "id": "116",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 962,
+  "overlord": 17
+},
+{
+  "name": "House Estermont of Greenstone",
+  "id": "117",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 357,
+  "overlord": 16
+},
+{
+  "name": "House Estren of Wyndhall",
+  "id": "118",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 860,
+  "overlord": 229
+},
+{
+  "name": "House Falwell",
+  "id": "119",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Farman of Faircastle",
+  "id": "120",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 963,
+  "overlord": 229
+},
+{
+  "name": "House Farring",
+  "id": "121",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 15
+},
+{
+  "name": "House Farwynd of Sealskin Point",
+  "id": "122",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 2033,
+  "overlord": 169
+},
+{
+  "name": "House Farwynd of the Lonely Light",
+  "id": "123",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 453,
+  "overlord": 169
+},
+{
+  "name": "House Fell of Felwood",
+  "id": "124",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Fenn",
+  "id": "125",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Ferren",
+  "id": "126",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Fisher",
+  "id": "127",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Fisher of the Stony Shore",
+  "id": "128",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Flint  of the mountains",
+  "id": "129",
+  "region": "The North",
+  "words": "",
+  "currentLord": 2023,
+  "overlord": 362
+},
+{
+  "name": "House Flint of Breakstone Hill",
+  "id": "130",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Flint of Flint's Finger",
+  "id": "131",
+  "region": "The North",
+  "words": "",
+  "currentLord": 1882,
+  "overlord": 34
+},
+{
+  "name": "House Flint of Widow's Watch",
+  "id": "132",
+  "region": "The North",
+  "words": "Ever Vigilant",
+  "currentLord": 669,
+  "overlord": 34
+},
+{
+  "name": "House Florent of Brightwater Keep",
+  "id": "133",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 68,
+  "overlord": 15
+},
+{
+  "name": "House Follard",
+  "id": "134",
+  "region": "The Crownlands",
+  "words": "None so Wise",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Foote",
+  "id": "135",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Foote of Nightsong",
+  "id": "136",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 825,
+  "overlord": 16
+},
+{
+  "name": "House Footly of Tumbleton",
+  "id": "137",
+  "region": "The Reach",
+  "words": "Tread Lightly Here",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Forrester",
+  "id": "138",
+  "region": "The North",
+  "words": "Iron from Ice (Telltale)",
+  "currentLord": -1,
+  "overlord": 150
+},
+{
+  "name": "House Fossoway of Cider Hall",
+  "id": "139",
+  "region": "The Reach",
+  "words": "Taste of Glory",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Fossoway of New Barrel",
+  "id": "140",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 577,
+  "overlord": 398
+},
+{
+  "name": "House Fowler of Skyreach",
+  "id": "141",
+  "region": "Dorne",
+  "words": "Let Me Soar",
+  "currentLord": 396,
+  "overlord": 285
+},
+{
+  "name": "House Frey of Riverrun",
+  "id": "142",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 377,
+  "overlord": 10
+},
+{
+  "name": "House Frey of the Crossing",
+  "id": "143",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 1093,
+  "overlord": 10
+},
+{
+  "name": "House Frost",
+  "id": "144",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Gardener of Highgarden",
+  "id": "145",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Gargalen of Salt Shore",
+  "id": "146",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 1036,
+  "overlord": 285
+},
+{
+  "name": "House Garner",
+  "id": "147",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Gaunt",
+  "id": "148",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Glenmore",
+  "id": "149",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Glover of Deepwood Motte",
+  "id": "150",
+  "region": "The North",
+  "words": "",
+  "currentLord": 397,
+  "overlord": 362
+},
+{
+  "name": "House Goodbrook",
+  "id": "151",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 673,
+  "overlord": 10
+},
+{
+  "name": "House Goodbrother of Corpse Lake",
+  "id": "152",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 155
+},
+{
+  "name": "House Goodbrother of Crow Spike Keep",
+  "id": "153",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 155
+},
+{
+  "name": "House Goodbrother of Downdelving",
+  "id": "154",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 155
+},
+{
+  "name": "House Goodbrother of Hammerhorn",
+  "id": "155",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 434,
+  "overlord": 169
+},
+{
+  "name": "House Goodbrother of Orkmont",
+  "id": "156",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Goodbrother of Shatterstone",
+  "id": "157",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 1762,
+  "overlord": 169
+},
+{
+  "name": "House Gower",
+  "id": "158",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Graceford of Holyhall",
+  "id": "159",
+  "region": "The Reach",
+  "words": "Work Her Will",
+  "currentLord": 81,
+  "overlord": 398
+},
+{
+  "name": "House Grafton of Gulltown",
+  "id": "160",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 420,
+  "overlord": 7
+},
+{
+  "name": "House Grandison of Grandview",
+  "id": "161",
+  "region": "The Stormlands",
+  "words": "Rouse Me Not",
+  "currentLord": 510,
+  "overlord": 17
+},
+{
+  "name": "House Graves",
+  "id": "162",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Greenfield of Greenfield",
+  "id": "163",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 405,
+  "overlord": 229
+},
+{
+  "name": "House Greengood",
+  "id": "164",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Greenwood",
+  "id": "165",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Grell",
+  "id": "166",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Grey",
+  "id": "167",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Greyiron of Orkmont",
+  "id": "168",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Greyjoy of Pyke",
+  "id": "169",
+  "region": "Iron Islands",
+  "words": "We Do Not Sow",
+  "currentLord": 385,
+  "overlord": 16
+},
+{
+  "name": "House Greystark of Wolf's Den",
+  "id": "170",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Grimm of Greyshield",
+  "id": "171",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 445,
+  "overlord": 398
+},
+{
+  "name": "House Haigh",
+  "id": "172",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 143
+},
+{
+  "name": "House Hamell",
+  "id": "173",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Harclay",
+  "id": "174",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Hardy",
+  "id": "175",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Hardyng",
+  "id": "176",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 417
+},
+{
+  "name": "House Harlaw of Grey Garden",
+  "id": "177",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 473,
+  "overlord": 178
+},
+{
+  "name": "House Harlaw of Harlaw",
+  "id": "178",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 914,
+  "overlord": 169
+},
+{
+  "name": "House Harlaw of Harlaw Hall",
+  "id": "179",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 979,
+  "overlord": 178
+},
+{
+  "name": "House Harlaw of Harridan Hill",
+  "id": "180",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 201,
+  "overlord": 178
+},
+{
+  "name": "House Harlaw of the Tower of Glimmering",
+  "id": "181",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 505,
+  "overlord": 178
+},
+{
+  "name": "House Harlton",
+  "id": "182",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Harroway of Harrenhal",
+  "id": "183",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Harte",
+  "id": "184",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Hastwyck",
+  "id": "185",
+  "region": "The Reach",
+  "words": "None so Dutiful",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Hasty",
+  "id": "186",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Hawick of Saltpans",
+  "id": "187",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Hawthorne",
+  "id": "188",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Hayford of Hayford",
+  "id": "189",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 382,
+  "overlord": 16
+},
+{
+  "name": "House Heddle",
+  "id": "190",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Herston",
+  "id": "191",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Hersy of Newkeep",
+  "id": "192",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Hetherspoon",
+  "id": "193",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 1047,
+  "overlord": 229
+},
+{
+  "name": "House Hewett of Oakenshield",
+  "id": "194",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 515,
+  "overlord": 398
+},
+{
+  "name": "House Hightower of the Hightower",
+  "id": "195",
+  "region": "The Reach",
+  "words": "We Light the Way",
+  "currentLord": 635,
+  "overlord": 398
+},
+{
+  "name": "House Hoare of Orkmont",
+  "id": "196",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Hogg of Sow's Horn",
+  "id": "197",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 1887,
+  "overlord": 189
+},
+{
+  "name": "House Hollard",
+  "id": "198",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 95
+},
+{
+  "name": "House Holt",
+  "id": "199",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Holt",
+  "id": "200",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Hook",
+  "id": "201",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Hornwood of Hornwood",
+  "id": "202",
+  "region": "The North",
+  "words": "Righteous in Wrath",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Horpe",
+  "id": "203",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Hull",
+  "id": "204",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Humble",
+  "id": "205",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Hunt",
+  "id": "206",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 379
+},
+{
+  "name": "House Hunter of Longbow Hall",
+  "id": "207",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 426,
+  "overlord": 7
+},
+{
+  "name": "House Hutcheson",
+  "id": "208",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Inchfield",
+  "id": "209",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Ironmaker",
+  "id": "210",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 1372,
+  "overlord": 169
+},
+{
+  "name": "House Ironsmith",
+  "id": "211",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Jast",
+  "id": "212",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 124,
+  "overlord": 229
+},
+{
+  "name": "House Jordayne of the Tor",
+  "id": "213",
+  "region": "Dorne",
+  "words": "Let it be Written",
+  "currentLord": 1035,
+  "overlord": 285
+},
+{
+  "name": "House Justman",
+  "id": "214",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Karstark of Karhold",
+  "id": "215",
+  "region": "The North",
+  "words": "The Sun of Winter",
+  "currentLord": 476,
+  "overlord": 34
+},
+{
+  "name": "House Keath",
+  "id": "216",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Kellington",
+  "id": "217",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Kenning of Harlaw",
+  "id": "218",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 178
+},
+{
+  "name": "House Kenning of Kayce",
+  "id": "219",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 1013,
+  "overlord": 229
+},
+{
+  "name": "House Kettleblack",
+  "id": "220",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Kidwell of Ivy Hall",
+  "id": "221",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Knott",
+  "id": "222",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Kyndall",
+  "id": "223",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Ladybright",
+  "id": "224",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 285
+},
+{
+  "name": "House Lake",
+  "id": "225",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Lake",
+  "id": "226",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Langward",
+  "id": "227",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Lannett",
+  "id": "228",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Lannister of Casterly Rock",
+  "id": "229",
+  "region": "The Westerlands",
+  "words": "Hear Me Roar!",
+  "currentLord": 238,
+  "overlord": 16
+},
+{
+  "name": "House Lannister of Darry",
+  "id": "230",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 613,
+  "overlord": 10
+},
+{
+  "name": "House Lannister of Lannisport",
+  "id": "231",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Lanny",
+  "id": "232",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Lantell",
+  "id": "233",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Lefford of the Golden Tooth",
+  "id": "234",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 103,
+  "overlord": 229
+},
+{
+  "name": "House Leygood",
+  "id": "235",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Liddle",
+  "id": "236",
+  "region": "The North",
+  "words": "",
+  "currentLord": 1031,
+  "overlord": 362
+},
+{
+  "name": "House Lightfoot",
+  "id": "237",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Lipps",
+  "id": "238",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Locke of Oldcastle",
+  "id": "239",
+  "region": "The North",
+  "words": "",
+  "currentLord": 788,
+  "overlord": 34
+},
+{
+  "name": "House Lolliston",
+  "id": "240",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Long",
+  "id": "241",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Longthorpe of Longsister",
+  "id": "242",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 1895,
+  "overlord": 370
+},
+{
+  "name": "House Longwaters",
+  "id": "243",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Lonmouth",
+  "id": "244",
+  "region": "The Stormlands",
+  "words": "The Choice is Yours",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Lorch",
+  "id": "245",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 645,
+  "overlord": 229
+},
+{
+  "name": "House Lothston of Harrenhal",
+  "id": "246",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Lowther",
+  "id": "247",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Lyberr",
+  "id": "248",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Lychester",
+  "id": "249",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 674,
+  "overlord": 10
+},
+{
+  "name": "House Lydden of Deep Den",
+  "id": "250",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 632,
+  "overlord": 229
+},
+{
+  "name": "House Lynderly of the Snakewood",
+  "id": "251",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 579,
+  "overlord": 7
+},
+{
+  "name": "House Magnar of Kingshouse",
+  "id": "252",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Mallery",
+  "id": "253",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Mallister of Seagard",
+  "id": "254",
+  "region": "The Riverlands",
+  "words": "Above the Rest",
+  "currentLord": 539,
+  "overlord": 10
+},
+{
+  "name": "House Manderly of White Harbor",
+  "id": "255",
+  "region": "The North",
+  "words": "",
+  "currentLord": 1124,
+  "overlord": 34
+},
+{
+  "name": "House Manning",
+  "id": "256",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Manwoody of Kingsgrave",
+  "id": "257",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 279,
+  "overlord": 285
+},
+{
+  "name": "House Marbrand of Ashemark",
+  "id": "258",
+  "region": "The Westerlands",
+  "words": "Burning bright",
+  "currentLord": 285,
+  "overlord": 229
+},
+{
+  "name": "House Marsh",
+  "id": "259",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Massey of Stonedance",
+  "id": "260",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Meadows of Grassy Vale",
+  "id": "261",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 369,
+  "overlord": 17
+},
+{
+  "name": "House Melcolm of Old Anchor",
+  "id": "262",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Merlyn of Pebbleton",
+  "id": "263",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Merryweather of Longtable",
+  "id": "264",
+  "region": "The Reach",
+  "words": "Behold Our Bounty",
+  "currentLord": 796,
+  "overlord": 398
+},
+{
+  "name": "House Mertyns of Mistwood",
+  "id": "265",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 728,
+  "overlord": 17
+},
+{
+  "name": "House Middlebury",
+  "id": "266",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Mollen",
+  "id": "267",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Moore",
+  "id": "268",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Mooton of Maidenpool",
+  "id": "269",
+  "region": "The Riverlands",
+  "words": "Wisdom and Strength",
+  "currentLord": 1118,
+  "overlord": 10
+},
+{
+  "name": "House Moreland",
+  "id": "270",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 907,
+  "overlord": 229
+},
+{
+  "name": "House Mormont of Bear Island",
+  "id": "271",
+  "region": "The North",
+  "words": "Here We Stand",
+  "currentLord": 692,
+  "overlord": 362
+},
+{
+  "name": "House Morrigen of Crow's Nest",
+  "id": "272",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 630,
+  "overlord": 17
+},
+{
+  "name": "House Moss",
+  "id": "273",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Mudd of Oldstones",
+  "id": "274",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Mullendore of Uplands",
+  "id": "275",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 726,
+  "overlord": 195
+},
+{
+  "name": "House Musgood",
+  "id": "276",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Myatt",
+  "id": "277",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Myre of Harlaw",
+  "id": "278",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 178
+},
+{
+  "name": "House Nayland of Hag's Mire",
+  "id": "279",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 143
+},
+{
+  "name": "House Netley",
+  "id": "280",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Norcross",
+  "id": "281",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Norrey",
+  "id": "282",
+  "region": "The North",
+  "words": "",
+  "currentLord": 205,
+  "overlord": 362
+},
+{
+  "name": "House Norridge",
+  "id": "283",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Nutt",
+  "id": "284",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Nymeros Martell of Sunspear",
+  "id": "285",
+  "region": "Dorne",
+  "words": "Unbowed, Unbent, Unbroken",
+  "currentLord": 326,
+  "overlord": 16
+},
+{
+  "name": "House Oakheart of Old Oak",
+  "id": "286",
+  "region": "The Reach",
+  "words": "Our Roots Go Deep",
+  "currentLord": 147,
+  "overlord": 398
+},
+{
+  "name": "House Oldflowers",
+  "id": "287",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Orkwood of Orkmont",
+  "id": "288",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Orme",
+  "id": "289",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Osgrey of Leafy Lake",
+  "id": "290",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 291
+},
+{
+  "name": "House Osgrey of Standfast",
+  "id": "291",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 326
+},
+{
+  "name": "House Overton",
+  "id": "292",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Paege",
+  "id": "293",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 462,
+  "overlord": 10
+},
+{
+  "name": "House Parren",
+  "id": "294",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Payne",
+  "id": "295",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Peake of Starpike",
+  "id": "296",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 1027,
+  "overlord": 398
+},
+{
+  "name": "House Peasebury of Poddingfield",
+  "id": "297",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 908,
+  "overlord": 15
+},
+{
+  "name": "House Peat",
+  "id": "298",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Peckledon",
+  "id": "299",
+  "region": "The Westerlands",
+  "words": "Unflinching",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Penrose of Parchments",
+  "id": "300",
+  "region": "The Stormlands",
+  "words": "Set Down Our Deeds",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Perryn",
+  "id": "301",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Piper of Pinkmaiden",
+  "id": "302",
+  "region": "The Riverlands",
+  "words": "Brave and Beautiful",
+  "currentLord": 245,
+  "overlord": 10
+},
+{
+  "name": "House Plumm",
+  "id": "303",
+  "region": "The Westerlands",
+  "words": "Come Try Me",
+  "currentLord": 826,
+  "overlord": 229
+},
+{
+  "name": "House Pommingham",
+  "id": "304",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Poole",
+  "id": "305",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Prester of Feastfires",
+  "id": "306",
+  "region": "The Westerlands",
+  "words": "Tireless",
+  "currentLord": 403,
+  "overlord": 229
+},
+{
+  "name": "House Pryor of Pebble",
+  "id": "307",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Pyle",
+  "id": "308",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Pyne",
+  "id": "309",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Qoherys of Harrenhal",
+  "id": "310",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Qorgyle of Sandstone",
+  "id": "311",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 845,
+  "overlord": 285
+},
+{
+  "name": "House Quagg",
+  "id": "312",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 318
+},
+{
+  "name": "House Rambton",
+  "id": "313",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 372
+},
+{
+  "name": "House Redbeard",
+  "id": "314",
+  "region": "Beyond the Wall",
+  "words": "",
+  "currentLord": 1423,
+  "overlord": 15
+},
+{
+  "name": "House Redding",
+  "id": "315",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Redfort of Redfort",
+  "id": "316",
+  "region": "The Vale",
+  "words": "As Strong as Stone",
+  "currentLord": 499,
+  "overlord": 7
+},
+{
+  "name": "House Redwyne of the Arbor",
+  "id": "317",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 815,
+  "overlord": 398
+},
+{
+  "name": "House Reed of Greywater Watch",
+  "id": "318",
+  "region": "The Neck",
+  "words": "",
+  "currentLord": 506,
+  "overlord": 362
+},
+{
+  "name": "House Reyne of Castamere",
+  "id": "319",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Rhysling",
+  "id": "320",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Risley",
+  "id": "321",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Rogers of Amberly",
+  "id": "322",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Rollingford",
+  "id": "323",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Roote of Lord Harroway's Town",
+  "id": "324",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Rosby of Rosby",
+  "id": "325",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 458,
+  "overlord": 16
+},
+{
+  "name": "House Rowan of Goldengrove",
+  "id": "326",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 731,
+  "overlord": 398
+},
+{
+  "name": "House Roxton of the Ring",
+  "id": "327",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Royce of Runestone",
+  "id": "328",
+  "region": "The Vale",
+  "words": "We Remember",
+  "currentLord": 1131,
+  "overlord": 7
+},
+{
+  "name": "House Royce of the Gates of the Moon",
+  "id": "329",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 1755,
+  "overlord": 7
+},
+{
+  "name": "House Ruthermont",
+  "id": "330",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Ruttiger",
+  "id": "331",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 857,
+  "overlord": 229
+},
+{
+  "name": "House Ryder of the Rills",
+  "id": "332",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Ryger of Willow Wood",
+  "id": "333",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Rykker of Duskendale",
+  "id": "334",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": 861,
+  "overlord": 16
+},
+{
+  "name": "House Ryswell of the Rills",
+  "id": "335",
+  "region": "The North",
+  "words": "",
+  "currentLord": 915,
+  "overlord": 34
+},
+{
+  "name": "House Saltcliffe of Saltcliffe",
+  "id": "336",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 323,
+  "overlord": 169
+},
+{
+  "name": "House Santagar of Spottswood",
+  "id": "337",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 1002,
+  "overlord": 285
+},
+{
+  "name": "House Sarsfield of Sarsfield",
+  "id": "338",
+  "region": "The Westerlands",
+  "words": "True to the Mark",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Sarwyck",
+  "id": "339",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Seaworth of Cape Wrath",
+  "id": "340",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 1319,
+  "overlord": 15
+},
+{
+  "name": "House Selmy of Harvest Hall",
+  "id": "341",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 139,
+  "overlord": 17
+},
+{
+  "name": "House Serrett of Silverhill",
+  "id": "342",
+  "region": "The Westerlands",
+  "words": "I Have No Rival",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Serry of Southshield",
+  "id": "343",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 798,
+  "overlord": 398
+},
+{
+  "name": "House Sharp",
+  "id": "344",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Shawney",
+  "id": "345",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Shell",
+  "id": "346",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Shell",
+  "id": "347",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Shepherd",
+  "id": "348",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Shermer of Smithyton",
+  "id": "349",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Shett of Gull Tower",
+  "id": "350",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 287,
+  "overlord": 328
+},
+{
+  "name": "House Shett of Gulltown",
+  "id": "351",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 160
+},
+{
+  "name": "House Slate of Blackpool",
+  "id": "352",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Sloane",
+  "id": "353",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Slynt of Harrenhal",
+  "id": "354",
+  "region": "None",
+  "words": "",
+  "currentLord": 761,
+  "overlord": 16
+},
+{
+  "name": "House Smallwood of Acorn Hall",
+  "id": "355",
+  "region": "The Riverlands",
+  "words": "From These Beginnings",
+  "currentLord": 1020,
+  "overlord": 405
+},
+{
+  "name": "House Sparr of Great Wyk",
+  "id": "356",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 1015,
+  "overlord": 169
+},
+{
+  "name": "House Spicer of Castamere",
+  "id": "357",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 927,
+  "overlord": 229
+},
+{
+  "name": "House Stackhouse",
+  "id": "358",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Stackspear",
+  "id": "359",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 965,
+  "overlord": 229
+},
+{
+  "name": "House Staedmon of Broad Arch",
+  "id": "360",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 71,
+  "overlord": 17
+},
+{
+  "name": "House Stane of Driftwood Hall",
+  "id": "361",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Stark of Winterfell",
+  "id": "362",
+  "region": "The North",
+  "words": "Winter is Coming",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Staunton of Rook's Rest",
+  "id": "363",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 15
+},
+{
+  "name": "House Stokeworth of Stokeworth",
+  "id": "364",
+  "region": "The Crownlands",
+  "words": "Proud to be Faithful",
+  "currentLord": 638,
+  "overlord": 16
+},
+{
+  "name": "House Stonehouse of Old Wyk",
+  "id": "365",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 1016,
+  "overlord": 169
+},
+{
+  "name": "House Stonetree of Harlaw",
+  "id": "366",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 178
+},
+{
+  "name": "House Stout of Goldgrass",
+  "id": "367",
+  "region": "The North",
+  "words": "",
+  "currentLord": 483,
+  "overlord": 111
+},
+{
+  "name": "House Strickland",
+  "id": "368",
+  "region": "",
+  "words": "",
+  "currentLord": 480,
+  "overlord": -1
+},
+{
+  "name": "House Strong of Harrenhal",
+  "id": "369",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Sunderland of the Three Sisters",
+  "id": "370",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 1042,
+  "overlord": 7
+},
+{
+  "name": "House Sunderly of Saltcliffe",
+  "id": "371",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Sunglass of Sweetport Sound",
+  "id": "372",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 15
+},
+{
+  "name": "House Swann of Stonehelm",
+  "id": "373",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 442,
+  "overlord": 17
+},
+{
+  "name": "House Swyft of Cornfield",
+  "id": "374",
+  "region": "The Westerlands",
+  "words": "Awake! Awake!",
+  "currentLord": 487,
+  "overlord": 229
+},
+{
+  "name": "House Swygert",
+  "id": "375",
+  "region": "The Stormlands",
+  "words": "Truth Conquers",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Tallhart of Torrhen's Square",
+  "id": "376",
+  "region": "The North",
+  "words": "Proud and Free",
+  "currentLord": 337,
+  "overlord": 34
+},
+{
+  "name": "House Tarbeck of Tarbeck Hall",
+  "id": "377",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Targaryen of King's Landing",
+  "id": "378",
+  "region": "The Crownlands",
+  "words": "Fire and Blood",
+  "currentLord": 1303,
+  "overlord": -1
+},
+{
+  "name": "House Tarly of Horn Hill",
+  "id": "379",
+  "region": "The Reach",
+  "words": "First in Battle",
+  "currentLord": 850,
+  "overlord": 398
+},
+{
+  "name": "House Tarth of Evenfall Hall",
+  "id": "380",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 966,
+  "overlord": 17
+},
+{
+  "name": "House Tawney of Orkmont",
+  "id": "381",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 169
+},
+{
+  "name": "House Teague",
+  "id": "382",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Templeton",
+  "id": "383",
+  "region": "",
+  "words": "",
+  "currentLord": 1005,
+  "overlord": 7
+},
+{
+  "name": "House Terrick",
+  "id": "384",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Thenn",
+  "id": "385",
+  "region": "The North",
+  "words": "",
+  "currentLord": 980,
+  "overlord": -1
+},
+{
+  "name": "House Thorne",
+  "id": "386",
+  "region": "The Crownlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Toland of Ghost Hill",
+  "id": "387",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 781,
+  "overlord": 285
+},
+{
+  "name": "House Tollett of the Grey Glen",
+  "id": "388",
+  "region": "The Vale",
+  "words": "When All is Darkest",
+  "currentLord": 1064,
+  "overlord": 328
+},
+{
+  "name": "House Torrent of Littlesister",
+  "id": "389",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 1150,
+  "overlord": 370
+},
+{
+  "name": "House Towers",
+  "id": "390",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Towers of Harrenhal",
+  "id": "391",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Toyne",
+  "id": "392",
+  "region": "The Stormlands",
+  "words": "Fly High, Fly Far",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Trant of Gallowsgrey",
+  "id": "393",
+  "region": "The Stormlands",
+  "words": "So End Our Foes",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Tudbury",
+  "id": "394",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Tully of Riverrun",
+  "id": "395",
+  "region": "The Riverlands",
+  "words": "Family, Duty, Honor",
+  "currentLord": 346,
+  "overlord": 362
+},
+{
+  "name": "House Turnberry",
+  "id": "396",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Tyrell of Brightwater Keep",
+  "id": "397",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 401,
+  "overlord": 398
+},
+{
+  "name": "House Tyrell of Highgarden",
+  "id": "398",
+  "region": "The Reach",
+  "words": "Growing Strong",
+  "currentLord": 691,
+  "overlord": 16
+},
+{
+  "name": "House Uffering",
+  "id": "399",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Uller of Hellholt",
+  "id": "400",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 470,
+  "overlord": 285
+},
+{
+  "name": "House Umber of the Last Hearth",
+  "id": "401",
+  "region": "The North",
+  "words": "",
+  "currentLord": 585,
+  "overlord": 362
+},
+{
+  "name": "House Upcliff",
+  "id": "402",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Vaith of the Red Dunes",
+  "id": "403",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": 277,
+  "overlord": 285
+},
+{
+  "name": "House Vance of Atranta",
+  "id": "404",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 780,
+  "overlord": 10
+},
+{
+  "name": "House Vance of Wayfarer's Rest",
+  "id": "405",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 604,
+  "overlord": 10
+},
+{
+  "name": "House Varner",
+  "id": "406",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": 993,
+  "overlord": 398
+},
+{
+  "name": "House Velaryon of Driftmark",
+  "id": "407",
+  "region": "The Crownlands",
+  "words": "The Old, the True, the Brave",
+  "currentLord": 757,
+  "overlord": 15
+},
+{
+  "name": "House Vikary",
+  "id": "408",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 676,
+  "overlord": 229
+},
+{
+  "name": "House Volmark",
+  "id": "409",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 720,
+  "overlord": 178
+},
+{
+  "name": "House Vypren",
+  "id": "410",
+  "region": "",
+  "words": "",
+  "currentLord": 660,
+  "overlord": 10
+},
+{
+  "name": "House Vyrwel of Darkdell",
+  "id": "411",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Wade",
+  "id": "412",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Wagstaff",
+  "id": "413",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Waterman",
+  "id": "414",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Waxley of Wickenden",
+  "id": "415",
+  "region": "The Vale",
+  "words": "Light in Darkness",
+  "currentLord": 345,
+  "overlord": 7
+},
+{
+  "name": "House Wayn",
+  "id": "416",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 395
+},
+{
+  "name": "House Waynwood of Ironoaks",
+  "id": "417",
+  "region": "The Vale",
+  "words": "",
+  "currentLord": 125,
+  "overlord": 7
+},
+{
+  "name": "House Weaver",
+  "id": "418",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": -1
+},
+{
+  "name": "House Webber of Coldmoat",
+  "id": "419",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 326
+},
+{
+  "name": "House Wells",
+  "id": "420",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 285
+},
+{
+  "name": "House Wells",
+  "id": "421",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Wendwater",
+  "id": "422",
+  "region": "The Crownlands",
+  "words": "For All Seasons",
+  "currentLord": -1,
+  "overlord": 16
+},
+{
+  "name": "House Wensington",
+  "id": "423",
+  "region": "The Stormlands",
+  "words": "Sound The Charge",
+  "currentLord": -1,
+  "overlord": 17
+},
+{
+  "name": "House Westbrook",
+  "id": "424",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Westerling of the Crag",
+  "id": "425",
+  "region": "The Westerlands",
+  "words": "Honor, Not Honors",
+  "currentLord": 413,
+  "overlord": 229
+},
+{
+  "name": "House Westford",
+  "id": "426",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Whent of Harrenhal",
+  "id": "427",
+  "region": "The Riverlands",
+  "words": "",
+  "currentLord": 972,
+  "overlord": 395
+},
+{
+  "name": "House Whitehill",
+  "id": "428",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Willum",
+  "id": "429",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Wode",
+  "id": "430",
+  "region": "The Riverlands",
+  "words": "Touch Me Not",
+  "currentLord": -1,
+  "overlord": 10
+},
+{
+  "name": "House Woodfoot of Bear Island",
+  "id": "431",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 362
+},
+{
+  "name": "House Woods",
+  "id": "432",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 150
+},
+{
+  "name": "House Woodwright",
+  "id": "433",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Woolfield",
+  "id": "434",
+  "region": "The North",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 34
+},
+{
+  "name": "House Wull",
+  "id": "435",
+  "region": "The North",
+  "words": "",
+  "currentLord": 512,
+  "overlord": 362
+},
+{
+  "name": "House Wydman",
+  "id": "436",
+  "region": "The Vale",
+  "words": "Right Conquers Might",
+  "currentLord": -1,
+  "overlord": 7
+},
+{
+  "name": "House Wyl of the Boneway",
+  "id": "437",
+  "region": "Dorne",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 285
+},
+{
+  "name": "House Wylde of Rain House",
+  "id": "438",
+  "region": "The Stormlands",
+  "words": "",
+  "currentLord": 229,
+  "overlord": 17
+},
+{
+  "name": "House Wynch of Iron Holt",
+  "id": "439",
+  "region": "Iron Islands",
+  "words": "",
+  "currentLord": 1097,
+  "overlord": 169
+},
+{
+  "name": "House Wythers",
+  "id": "440",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Yarwyck",
+  "id": "441",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 229
+},
+{
+  "name": "House Yelshire",
+  "id": "442",
+  "region": "The Reach",
+  "words": "",
+  "currentLord": -1,
+  "overlord": 398
+},
+{
+  "name": "House Yew",
+  "id": "443",
+  "region": "The Westerlands",
+  "words": "",
+  "currentLord": 707,
+  "overlord": 229
+},
+{
+  "name": "House Yronwood of Yronwood",
+  "id": "444",
+  "region": "Dorne",
+  "words": "We Guard the Way",
+  "currentLord": 117,
+  "overlord": 285
+}
 ]

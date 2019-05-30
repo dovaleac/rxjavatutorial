@@ -10,7 +10,7 @@ class ImportServiceTest {
   void run() throws Exception {
     ImportService importService = new ImportService();
 
-    importService.importAllCharacters().forEach(System.out::println);
+    //importService.importAllCharacters().forEach(System.out::println);
     importService.importAllHouses().forEach(System.out::println);
   }
 }
