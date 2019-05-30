@@ -1,0 +1,82 @@
+[
+    {
+      "name": "House Algood",
+      "id": "1",
+      "region": "The Westerlands",
+      "words": "",
+      "currentLord": "",
+      "overlord": "229"
+    },
+    {
+      "name": "House Allyrion of Godsgrace",
+      "id": "2",
+      "region": "Dorne",
+      "words": "No Foe May Pass",
+      "currentLord": "298",
+      "overlord": "285"
+    },
+    {
+      "name": "House Amber",
+      "id": "3",
+      "region": "The North",
+      "words": "",
+      "currentLord": "",
+      "overlord": ""
+    },
+    {
+      "name": "House Ambrose",
+      "id": "4",
+      "region": "The Reach",
+      "words": "Never Resting",
+      "currentLord": "141",
+      "overlord": "398"
+    },
+    {
+      "name": "House Appleton of Appleton",
+      "id": "5",
+      "region": "The Reach",
+      "words": "",
+      "currentLord": "",
+      "overlord": "398"
+    },
+    {
+      "name": "House Arryn of Gulltown",
+      "id": "6",
+      "region": "The Vale",
+      "words": "",
+      "currentLord": "",
+      "overlord": "7"
+    },
+    {
+      "name": "House Arryn of the Eyrie",
+      "id": "7",
+      "region": "The Vale",
+      "words": "As High as Honor",
+      "currentLord": "894",
+      "overlord": "16"
+    },
+    {
+      "name": "House Ashford of Ashford",
+      "id": "8",
+      "region": "The Reach",
+      "words": "Our Sun Shines Bright",
+      "currentLord": "",
+      "overlord": "398"
+    },
+    {
+      "name": "House Ashwood",
+      "id": "9",
+      "region": "The North",
+      "words": "",
+      "currentLord": "",
+      "overlord": "34"
+    },
+    {
+      "name": "House Baelish of Harrenhal",
+      "id": "10",
+      "region": "The Riverlands",
+      "words": "",
+      "currentLord": "823",
+      "overlord": "16"
+    }
+]
