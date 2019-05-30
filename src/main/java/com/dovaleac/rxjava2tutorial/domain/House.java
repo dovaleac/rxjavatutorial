@@ -20,6 +20,10 @@ public class House {
     this.overlord = overlord;
   }
 
+  public House withNewRuler(int newRulerId) {
+    return new House(id, name, region, words, newRulerId, overlord);
+  }
+
   public int getId() {
     return id;
   }
