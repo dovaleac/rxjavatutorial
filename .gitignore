@@ -1,0 +1,42 @@
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+**/.DS_Store
+**/resources/keyfile.json
+**/resources/sentry.properties
+**/.vertx
+
+**/resources/cprof.*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.editorconfig
+.mvn/
+mvnw
+mvnw.cmd
+
+### IntelliJ IDEA ###
+**/.idea
+*.iws
+*.iml
+*.ipr
+
+### Visual Studio Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+src/main/resources/hsperfdata_root/
+.env
