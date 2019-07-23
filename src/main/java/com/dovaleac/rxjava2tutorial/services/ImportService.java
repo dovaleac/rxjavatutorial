@@ -2,6 +2,7 @@ package com.dovaleac.rxjava2tutorial.services;
 
 import com.dovaleac.rxjava2tutorial.domain.Character;
 import com.dovaleac.rxjava2tutorial.domain.House;
+import com.dovaleac.rxjava2tutorial.domain.Status;
 import com.dovaleac.rxjava2tutorial.jackson.MutableCharacter;
 import com.dovaleac.rxjava2tutorial.jackson.MutableHouse;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,4 +33,12 @@ public class ImportService {
         .collect(Collectors.toList());
   }
 
+  public Status importStatus() throws IOException {
+    List<Character> characters = importAllCharacters();
+    List<House> houses = importAllHouses();
+    return new Status(
+        new ReadService(characters, houses),
+        new WriteService(characters, houses)
+    );
+  }
 }
