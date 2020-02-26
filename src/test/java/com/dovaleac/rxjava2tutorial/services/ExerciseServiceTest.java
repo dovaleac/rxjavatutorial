@@ -28,11 +28,11 @@ class ExerciseServiceTest {
 
   @BeforeEach
   void setUp() throws IOException {
-    status =  new ImportService().importStatus();
+    status = new ImportService().importStatus();
   }
 
   @Test
-  void ex1() throws Exception {
+  void getAllCharactersNames() throws Exception {
     String[] expected =
         Files.lines(Paths.get("src", "test", "resources", "ex1")).toArray(String[]::new);
     service.getAllCharactersNames(status)
@@ -42,7 +42,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex2() throws Exception {
+  void getAllCharactersNamesSortedByNumberOfLetters() throws Exception {
     String[] expected =
         Files.lines(Paths.get("src", "test", "resources", "ex2")).toArray(String[]::new);
     service.getAllCharactersNamesSortedByNumberOfLetters(status)
@@ -51,7 +51,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex3() throws Exception {
+  void getAllCharactersWithTitles() throws Exception {
     Integer[] expected =
         Files.lines(Paths.get("src", "test", "resources", "ex3"))
             .map(Integer::parseInt)
@@ -63,8 +63,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex4() throws Exception {
-//        .forEach(System.out::println);
+  void getCharacterWithMostTitles() throws Exception {
     service.getCharacterWithMostTitles(status)
         .toSingle()
         .map(Character::getId)
@@ -73,8 +72,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex5() throws Exception {
-//        .forEach(System.out::println);
+  void getCharacterWithMostTitlesAsSingle() throws Exception {
     service.getCharacterWithMostTitlesAsSingle(status)
         .map(Character::getId)
         .test()
@@ -82,7 +80,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex6() throws Exception {
+  void getHousesWithMottoLength() throws Exception {
     Map<String, Integer> expected = Files.lines(Paths.get("src", "test", "resources", "ex6"))
         .map(s -> s.split(Pattern.quote("||")))
         .collect(Collectors.toMap(star -> star[0], star -> Integer.parseInt(star[1])));
@@ -92,7 +90,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex7() throws Exception {
+  void getAllDornishLords() throws Exception {
     Integer[] expected =
         Files.lines(Paths.get("src", "test", "resources", "ex7"))
             .map(Integer::parseInt)
@@ -106,7 +104,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex8() throws Exception {
+  void getOverlordedsOverlorded() throws Exception {
     Integer[] expected =
         Files.lines(Paths.get("src", "test", "resources", "ex8"))
             .map(Integer::parseInt)
@@ -121,7 +119,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex9() throws Exception {
+  void getDornishLordsShareOfTitles() throws Exception {
     Map<String, String> expected = Files.lines(Paths.get("src", "test", "resources", "ex9"))
         .map(s -> s.split(Pattern.quote("||")))
         .collect(Collectors.toMap(star -> star[0], star -> star[1]));
@@ -134,7 +132,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex10() throws Exception {
+  void getOverlordedOfNewHousesOverlorded() throws Exception {
     List<Integer> expected = List.of(21);
     service.getOverlordedOfNewHousesOverlorded(status, gryffindor)
         .map(House::getId)
@@ -144,7 +142,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void ex11() throws Exception {
+  void addHouseAndAddRulerAndCheckItsRuler() throws Exception {
     service.addHouseAndAddRulerAndCheckItsRuler(status, gryffindor, dumbledore)
         .test()
         .assertResult(dumbledore);

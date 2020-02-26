@@ -31,7 +31,8 @@ public class ExerciseService {
 
   /**
    * Obtain all the characters who possess at least one non-empty title.
-   * Note: some characters have only one title and it's empty. Those shouldn't be shown.
+   * Note: some characters have only one title and it's empty. Those shouldn't be shown. Only
+   * non-empty titles
    * @param status The way to access everything
    * @return
    */
@@ -68,7 +69,8 @@ public class ExerciseService {
   }
 
   /**
-   * Obtain all the characters who are lords of anything in the "Dorne" region
+   * Obtain all the characters who are lords of anything in the "Dorne" region. That is, obtain
+   * all houses in Dorne and get their lords.
    * @param status The way to access everything
    * @return
    */
@@ -77,8 +79,15 @@ public class ExerciseService {
   }
 
   /**
-   * Get all the houses whose overlord house's overlord house is the parameterized one
-   * Note: please note the method getOverlordedByHouse in ReadService
+   * Overlord = the house who rules over this house
+   * Overlorded by house X = all the houses whose overlord is house X
+   *
+   * That said, given house X, obtain all houses whose overlord is overlorded itself by house X.
+   * That is, if being some house's overlord is being that house's father, you have to find house
+   * X's grandsons.
+   * Note: please note the method getOverlordedByHouse in ReadService, which returns the "sons"
+   * of the given house.
+   *
    * @param status The way to access everything
    * @param house The house to search for
    * @return
@@ -90,7 +99,13 @@ public class ExerciseService {
   /**
    * Create a map that for each dornish lord (remember we have an exercise in which you had to
    * calculate all the dornish lords) specifies which % of all the titles among dornish lords
-   * s/he possesses. E.g: if there are only 2 noblemen and both have 2 titles, both would have 50%
+   * s/he possesses.
+   *
+   * Examples:
+   * - if there are only 2 noblemen and both have 2 titles, both would have 50%
+   * - if there are 2 noblemen, nobleman A with 3 titles and nobleman B with 2, A would have 60%
+   * and B would have 40%
+   *
    * @param status The way to access everything
    * @return
    */
@@ -100,8 +115,12 @@ public class ExerciseService {
   }
 
   /**
+   * Overlord = the house who rules over this house
+   * Overlorded by house X = all the houses whose overlord is house X
+   *
    * In this exercise you have to add a new house, and then return that house's overlordeds'
-   * overlordeds (remember we have an exercise for this last part)
+   * overlordeds (remember we have an exercise for this last part, so you can call it when you
+   * have inserted that house, in order to get its "grandsons")
    * @param status The way to access everything
    * @param house The house to add
    * @return
