@@ -1,8 +1,8 @@
 package com.dovaleac.rxjava2tutorial.services;
 
 import com.dovaleac.rxjava2tutorial.domain.Character;
-import com.dovaleac.rxjava2tutorial.domain.House;
 import com.dovaleac.rxjava2tutorial.domain.EntryPoint;
+import com.dovaleac.rxjava2tutorial.domain.House;
 import io.reactivex.Completable;
 import io.reactivex.Flowable;
 import io.reactivex.Maybe;
@@ -18,6 +18,7 @@ public class ExerciseService {
 
   /**
    * Obtain the names of all the characters
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -27,6 +28,7 @@ public class ExerciseService {
 
   /**
    * Obtain the names of all the characters and sort them by the number of letters they have
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -38,17 +40,19 @@ public class ExerciseService {
   /**
    * Obtain all the characters who possess at least one non-empty title.
    * Note: some characters have only one title and it's empty. Those shouldn't be shown.
+   *
    * @param entryPoint The way to access everything
    * @return
    */
   public Flowable<Character> getAllCharactersWithTitles(EntryPoint entryPoint) {
     return entryPoint.getReadService().getAllCharacters()
-        .filter(character -> !character.getTitles().isEmpty()
-            && !(character.getTitles().size() == 1 && character.getTitles().get(0).isEmpty()));
+        .filter(character -> character.getTitles().stream()
+            .anyMatch(s -> !s.isEmpty()));
   }
 
   /**
    * Obtain the character who has the most titles.
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -68,6 +72,7 @@ public class ExerciseService {
   /**
    * The same as the previous exercise, but returning a Single, as we know at least 1 character
    * exists
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -78,6 +83,7 @@ public class ExerciseService {
 
   /**
    * Obtain a map that, for each house, obtains its motto (the house's words)
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -88,6 +94,7 @@ public class ExerciseService {
 
   /**
    * Obtain all the characters who are lords of anything in the "Dorne" region
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -101,8 +108,9 @@ public class ExerciseService {
   /**
    * Get all the houses whose overlord house's overlord house is the parameterized one
    * Note: please note the method getOverlordedByHouse in ReadService
+   *
    * @param entryPoint The way to access everything
-   * @param house The house to search for
+   * @param house      The house to search for
    * @return
    */
   public Flowable<House> getOverlordedsOverlorded(EntryPoint entryPoint, House house) {
@@ -115,6 +123,7 @@ public class ExerciseService {
    * Create a map that for each dornish lord (remember we have an exercise in which you had to
    * calculate all the dornish lords) specifies which % of all the titles among dornish lords
    * s/he possesses. E.g: if there are only 2 noblemen and both have 2 titles, both would have 50%
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -136,8 +145,9 @@ public class ExerciseService {
   /**
    * In this exercise you have to add a new house, and then return that house's overlordeds'
    * overlordeds (remember we have an exercise for this last part)
+   *
    * @param entryPoint The way to access everything
-   * @param house The house to add
+   * @param house      The house to add
    * @return
    */
   public Flowable<House> getOverlordedOfNewHousesOverlorded(EntryPoint entryPoint, House house) {
@@ -148,12 +158,14 @@ public class ExerciseService {
   /**
    * Add a new house, add a new character, set the character as the ruler of the house and then
    * check the house's ruler
+   *
    * @param entryPoint The way to access everything
-   * @param newHouse The house to add
-   * @param newRuler The house's new ruler
+   * @param newHouse   The house to add
+   * @param newRuler   The house's new ruler
    * @return
    */
-  public Single<Character> addHouseAndAddRulerAndCheckItsRuler(EntryPoint entryPoint, House newHouse,
+  public Single<Character> addHouseAndAddRulerAndCheckItsRuler(EntryPoint entryPoint,
+      House newHouse,
       Character newRuler) {
     return Completable.concatArray(
         entryPoint.getWriteService().addNewHouse(newHouse),
