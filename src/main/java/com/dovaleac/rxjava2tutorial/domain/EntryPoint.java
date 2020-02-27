@@ -3,11 +3,11 @@ package com.dovaleac.rxjava2tutorial.domain;
 import com.dovaleac.rxjava2tutorial.services.ReadService;
 import com.dovaleac.rxjava2tutorial.services.WriteService;
 
-public class Status {
+public class EntryPoint {
   private final ReadService readService;
   private final WriteService writeService;
 
-  public Status(ReadService readService,
+  public EntryPoint(ReadService readService,
       WriteService writeService) {
     this.readService = readService;
     this.writeService = writeService;
