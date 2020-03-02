@@ -71,7 +71,7 @@ public class ExerciseService {
    * @param entryPoint The way to access everything
    * @return
    */
-  public Single<Map<String, Integer>> getHousesWithMottoLength(EntryPoint entryPoint) {
+  public Single<Map<String, String>> getHousesWithMotto(EntryPoint entryPoint) {
     return null;
   }
 

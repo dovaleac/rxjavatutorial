@@ -81,10 +81,16 @@ class ExerciseServiceTest {
 
   @Test
   void getHousesWithMottoLength() throws Exception {
-    Map<String, Integer> expected = Files.lines(Paths.get("src", "test", "resources", "ex6"))
+    Map<String, String> expected = Files.lines(Paths.get("src", "test", "resources", "ex6"))
         .map(s -> s.split(Pattern.quote("||")))
-        .collect(Collectors.toMap(star -> star[0], star -> Integer.parseInt(star[1])));
-    service.getHousesWithMottoLength(entryPoint)
+        .collect(Collectors.toMap(star -> star[0], star -> {
+          if (star.length < 2) {
+            return "";
+          }
+          return star[1];
+        }));
+
+    service.getHousesWithMotto(entryPoint)
         .test()
         .assertResult(expected);
   }
@@ -119,19 +125,6 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void getDornishLordsShareOfTitles() throws Exception {
-    Map<String, String> expected = Files.lines(Paths.get("src", "test", "resources", "ex9"))
-        .map(s -> s.split(Pattern.quote("||")))
-        .collect(Collectors.toMap(star -> star[0], star -> star[1]));
-    service.getDornishLordsShareOfTitles(entryPoint)
-        .subscribe(stringDoubleMap -> {
-          assertEquals(expected.size(), stringDoubleMap.size());
-          stringDoubleMap.forEach((s, aDouble) ->
-              assertEquals(expected.get(s), String.format("%g", aDouble)));
-        });
-  }
-
-  @Test
   void getOverlordedOfNewHousesOverlorded() throws Exception {
     List<Integer> expected = List.of(21);
     service.getOverlordedOfNewHousesOverlorded(entryPoint, gryffindor)
@@ -146,5 +139,18 @@ class ExerciseServiceTest {
     service.addHouseAndAddRulerAndCheckItsRuler(entryPoint, gryffindor, dumbledore)
         .test()
         .assertResult(dumbledore);
+  }
+
+  @Test
+  void getDornishLordsShareOfTitles() throws Exception {
+    Map<String, String> expected = Files.lines(Paths.get("src", "test", "resources", "ex9"))
+        .map(s -> s.split(Pattern.quote("||")))
+        .collect(Collectors.toMap(star -> star[0], star -> star[1]));
+    service.getDornishLordsShareOfTitles(entryPoint)
+        .subscribe(stringDoubleMap -> {
+          assertEquals(expected.size(), stringDoubleMap.size());
+          stringDoubleMap.forEach((s, aDouble) ->
+              assertEquals(expected.get(s), String.format("%g", aDouble)));
+        });
   }
 }
