@@ -30,11 +30,7 @@ public class ExerciseService {
   }
 
   /**
-   * Obtain all the characters who possess at least one non-empty title.
-   * Note: some characters have only one title and it's empty. Those shouldn't be shown. Only
-   * non-empty titles
-   *
-   * Hint: Java 8's Stream class has a very interesting anyMatch(Predicate) method...
+   * Obtain all the characters who possess at least one title.
    *
    * @param entryPoint The way to access everything
    * @return

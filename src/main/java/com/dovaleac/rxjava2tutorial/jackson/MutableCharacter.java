@@ -27,7 +27,11 @@ public class MutableCharacter {
   }
 
   public void setTitles(List<String> titles) {
-    this.titles = titles;
+    if (titles.size() == 1 && titles.get(0).isEmpty()) {
+      this.titles = List.of();
+    } else {
+      this.titles = titles;
+    }
   }
 
   public void setPlayedBy(List<String> playedBy) {
