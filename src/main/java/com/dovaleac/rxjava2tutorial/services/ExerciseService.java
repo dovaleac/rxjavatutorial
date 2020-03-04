@@ -108,14 +108,14 @@ public class ExerciseService {
    *
    * Given house X, the expected result is a Flowable containing houses Z1, Z2, Z3, Z4 and Z5.
    *
-   * Note that the method getOverlordedByHouse in ReadService produces the "sons" in this tree,
+   * Note that the method getSubjectHouses in ReadService produces the "sons" in this tree,
    * and we want the "grandsons"
    *
    * @param entryPoint The way to access everything
    * @param house The house to search for
    * @return
    */
-  public Flowable<House> getOverlordedsOverlorded(EntryPoint entryPoint, House house) {
+  public Flowable<House> getSubjectsOfHousesSubjects(EntryPoint entryPoint, House house) {
     return null;
   }
 
@@ -130,7 +130,7 @@ public class ExerciseService {
    * @param house The house to add
    * @return
    */
-  public Flowable<House> insertHouseAndGetItsOverlorded(EntryPoint entryPoint, House house) {
+  public Flowable<House> insertHouseAndGetItsSubjectHouses(EntryPoint entryPoint, House house) {
     return null;
   }
 

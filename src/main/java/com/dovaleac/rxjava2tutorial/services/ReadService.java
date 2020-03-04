@@ -64,7 +64,7 @@ public class ReadService {
         .firstElement();
   }
 
-  public Flowable<House> getOverlordedByHouse(House house) {
+  public Flowable<House> getSubjectHouses(House house) {
     return getAllHouses()
         .filter(house1 -> house1.getOverlord() == house.getId());
   }

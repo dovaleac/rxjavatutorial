@@ -117,7 +117,7 @@ class ExerciseServiceTest {
             .toArray(Integer[]::new);
     entryPoint.getReadService()
         .getHouseById(16)
-        .flatMapPublisher(house -> service.getOverlordedsOverlorded(entryPoint, house))
+        .flatMapPublisher(house -> service.getSubjectsOfHousesSubjects(entryPoint, house))
         .map(House::getId)
         .sorted()
         .test()
@@ -127,7 +127,7 @@ class ExerciseServiceTest {
   @Test
   void getOverlordedOfNewHousesOverlorded() throws Exception {
     List<Integer> expected = List.of(21);
-    service.insertHouseAndGetItsOverlorded(entryPoint, gryffindor)
+    service.insertHouseAndGetItsSubjectHouses(entryPoint, gryffindor)
         .map(House::getId)
         .toList()
         .test()
