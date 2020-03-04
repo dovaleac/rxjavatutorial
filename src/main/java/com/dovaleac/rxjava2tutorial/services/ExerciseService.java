@@ -45,6 +45,10 @@ public class ExerciseService {
 
   /**
    * Obtain the character who has the most titles.
+   *
+   * Note: there are several ways to accomplish this. You can try to solve it, do the rest of the
+   * exercises and then come back to this one and try to do it in a linear (O(n)) complexity.
+   *
    * @param entryPoint The way to access everything
    * @return
    */
@@ -63,7 +67,7 @@ public class ExerciseService {
   }
 
   /**
-   * Obtain a map that, for each house, obtains the length of its motto (the house's words, which
+   * Obtain a map that, for each house, obtains its motto (the house's words, which
    * in the House class appear as the attribute "words"). Please note that the expected map will
    * contain, as key, the house's name, and as value, the number of characters in the house's
    * words attribute.
@@ -94,12 +98,22 @@ public class ExerciseService {
    * Overlord = the house who rules over this house
    * Overlorded by house X = all the houses whose overlord is house X
    *
-   * That said, given house X, obtain all houses whose overlord is overlorded itself by house X.
-   * That is, if being some house's overlord is being that house's father, you have to find house
-   * X's grandsons.
    *
-   * Hint: please note the method getOverlordedByHouse in ReadService, which returns the "sons"
-   * of the given house.
+   *                          X                    (house received by parameter)
+   *                         /|\
+   *                        / | \
+   *                       /  |  \
+   *                      Y1 Y2  Y3                (overlorded by house X)
+   *                     /   /   /|\
+   *                    /   /   / | \
+   *                   /   /   /  |  \
+   *                  Z1  Z2  Z3  Z4 Z5            (overlorded by X's overlordeds)
+   *
+   *
+   * Given house X, the expected result is a Flowable containing houses Z1, Z2, Z3, Z4 and Z5.
+   *
+   * Note that the method getOverlordedByHouse in ReadService produces the "sons" in this tree,
+   * and we want the "grandsons"
    *
    * @param entryPoint The way to access everything
    * @param house The house to search for
@@ -120,7 +134,7 @@ public class ExerciseService {
    * @param house The house to add
    * @return
    */
-  public Flowable<House> getOverlordedOfNewHousesOverlorded(EntryPoint entryPoint, House house) {
+  public Flowable<House> insertHouseAndGetItsOverlorded(EntryPoint entryPoint, House house) {
     return null;
   }
 

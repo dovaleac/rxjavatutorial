@@ -80,7 +80,7 @@ class ExerciseServiceTest {
   }
 
   @Test
-  void getHousesWithMottoLength() throws Exception {
+  void getHousesWithMotto() throws Exception {
     Map<String, String> expected = Files.lines(Paths.get("src", "test", "resources", "ex6"))
         .map(s -> s.split(Pattern.quote("||")))
         .collect(Collectors.toMap(star -> star[0], star -> {
@@ -127,7 +127,7 @@ class ExerciseServiceTest {
   @Test
   void getOverlordedOfNewHousesOverlorded() throws Exception {
     List<Integer> expected = List.of(21);
-    service.getOverlordedOfNewHousesOverlorded(entryPoint, gryffindor)
+    service.insertHouseAndGetItsOverlorded(entryPoint, gryffindor)
         .map(House::getId)
         .toList()
         .test()
