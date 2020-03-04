@@ -37,10 +37,13 @@ public class CreateSample {
       CompletableFuture<Optional<T>> completableFuture) {
     return Maybe.create(maybeEmitter -> {
       try {
-        completableFuture.thenAcceptAsync(t ->
-            t.ifPresentOrElse(
-                maybeEmitter::onSuccess,
-                maybeEmitter::onComplete)
+        completableFuture.thenAcceptAsync(t -> {
+              if (t.isPresent()) {
+                maybeEmitter.onSuccess(t.get());
+              } else {
+                maybeEmitter.onComplete();
+              }
+            }
         );
       } catch (Exception e) {
         maybeEmitter.onError(e);
